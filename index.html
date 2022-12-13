@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Lucille Sambo</title>
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Lucille Sambo">
+    <meta property="og:title" content="Lucille Sambo">
+    <meta property="og:description" content="Writer and Developer">
+    <meta name="google" content="nositelinkssearchbox">
+    <meta name="google" content="notranslate">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div id="Page">
+        
+     <div id="Background"><canvas></canvas></div>
+
+        <div class="mask" id="Mask">
+            <div class="mask_top"></div>
+            <div class="mask_bottom"></div>
+
+        </div>
+        <div class="frame" id="Frame">
+            <div class="frame_line frame_line-left"></div>
+            <div class="frame_line frame_line-right"></div>
+            <div class="frame_line frame_line-top"></div>
+            <div class="frame_line frame_line-bottom"></div>
+    
+        </div>
+       
+        <header class="siteHeader" id="SiteHeader">
+            <h1 class="siteHeader_title">Lucille Sambo</h1>
+            <p class="siteHeader_label">Writer & Developer</p>
+            <nav class="siteHeader_nav" x-data>
+                <ol>
+                    <li :class="{ 'is-selected': $store.ui.currentPath === '/' }">
+                        <div class="_dot">&#x25cf;</div><a class="_text" href="index.html">Home</a>
+                    </li>
+                    <li :class="{ 'is-selected': $store.ui.currentPath === '/projects/' }">
+                        <div class="_dot">&#x25cf;</div><a class="_text" href="projects.html">Projects</a>
+                    </li>
+                    <li :class="{ 'is-selected': $store.ui.currentPath === '/info/' }">
+                        <div class="_dot">&#x25cf;</div><a class="_text" href="info.html">Info</a>
+                    </li>
+                    <li :class="{ 'is-selected': $store.ui.currentPath === '/contact/' }">
+                        <div class="_dot">&#x25cf;</div><a class="_text" href="contact.html">Contact</a>
+                    </li>
+                </ol>
+            </nav>
+        </header>
+        <main class="content" id="Content" data-scroll="area">
+            <div class="content_inner" data-scroll="target">
+                <div class="info_item info_item-3">
+                    <div class="info_content">
+                        
+                <span> 
+                   Born in 1999,
+                    
+                    <br/>a product of
+                    <br/> Mugabe's regime. 
+                    <br/>I take words 
+                    <br/>and experiences
+                    <br/>and turn them 
+                    <br/>into 
+                    beautiful pieces
+                    <br/> of art, 
+                    <br/>because if I 
+                    <br/>can't change it, 
+                    <br/>I might as well
+                    <br/> marvel at it. 
+                    <br/>I am pursuing
+                    <br/> free thinking through
+                    <br/> experimntal writing
+                    <br/> and design.
+                    </span>
+                
+                            
+                        
+                    </div>
+                </div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>
