@@ -356,8 +356,8 @@ body {
     line-height: 1.5
 }
 
-.info_content span {
-position: relative;
+.info_content{
+display:block;
 }
 
 .project {
